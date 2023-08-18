@@ -7,3 +7,32 @@
 footer {
   display: none;
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.template-mobile {
+  content: '';
+  border: 2px solid blue;
+  background: url('../../design/mobile-design.jpg');
+  position: absolute;
+  width: 750px;
+  height: 1624px;
+  margin: 0 auto;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+main {
+  height: 1624px;
+  width: 740px;
+  border: 2px solid green;
+  margin: 0 auto;
+}

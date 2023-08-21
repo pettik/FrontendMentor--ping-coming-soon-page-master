@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --blue: hsl(223, 87%, 63%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --Gray: hsl(0, 0%, 59%);
+--very-dark-blue: hsl(209, 33%, 12%);
+}
+
+
 
 footer {
   display: none;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 .template-mobile {
   content: '';
@@ -28,6 +32,11 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
+  opacity: .4;
+}
+
+body{
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 main {
@@ -35,4 +44,25 @@ main {
   width: 740px;
   border: 2px solid green;
   margin: 0 auto;
+
+  display:flex;
+  justify-content: center;
+  text-align: center;
 }
+
+main h1{
+  margin-top: 10rem;;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+main h1 span{
+color: var(--blue);;
+}
+
+main h3{
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+

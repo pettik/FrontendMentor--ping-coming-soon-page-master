@@ -80,7 +80,8 @@ main .email_input,
 main .email_input:focus,
 main .email_input:active{
   margin-top: 4rem;
-  width: 75%;
+  margin-left: .1rem;
+  min-width: 75%;
   padding:1.5rem 4rem;
   opacity: .3;
   font-size: 1.5rem;
@@ -90,4 +91,24 @@ main .email_input:active{
   border-radius: 2.5rem;
 }
 
+.btn{
+  min-width: 75%;
+  margin-left: .1rem;
+  margin-top:1.3rem;
+  background-color: var(--blue);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding:1.7rem 0 ;
+  outline: none;
+  border:none;
+  border-radius: 5rem;
+  opacity: .6;
+  cursor:pointer;
+  transition: background .3s;
+}
 
+
+.btn:hover{
+  background: var(--pale-blue);
+}

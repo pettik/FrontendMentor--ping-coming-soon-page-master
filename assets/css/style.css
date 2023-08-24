@@ -21,7 +21,7 @@ footer {
 
 
 .template-mobile {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   background: url('../../design/mobile-design.jpg');
   position: absolute;
   width: 750px;
@@ -41,7 +41,6 @@ body{
 main {
   height: 1624px;
   width: 750px;
-  border: 2px solid green;
   margin: 0 auto;
 
   display:flex;
@@ -111,4 +110,30 @@ main .email_input:active{
 
 .btn:hover{
   background: var(--pale-blue);
+}
+
+main img{
+  max-width: 100%;
+  padding:8.7rem 3.6rem 0 ;
+  opacity: .6;
+}
+
+.social-icons{
+  display:flex;
+  column-gap:1.6rem;
+  margin-top: 15rem;
+}
+
+.icon{
+  color:var(--blue);
+  border-radius: 50%;
+  font-size: 2rem;
+  border:2px solid var(--pale-blue);
+  padding:.8rem;
+}
+
+.copy{
+  font-size: 1.25rem;
+  color: var(--Gray);
+  margin-top: 3.5rem;
 }

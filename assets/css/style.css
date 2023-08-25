@@ -22,7 +22,7 @@ footer {
 
 .template-mobile {
   /* border: 2px solid blue; */
-  background: url('../../design/mobile-design.jpg');
+  background: url('../../design/mobile-error-state.jpg');
   position: absolute;
   width: 750px;
   height: 1624px;
@@ -82,12 +82,16 @@ main .email_input:active{
   margin-left: .1rem;
   min-width: 75%;
   padding:1.5rem 4rem;
-  opacity: .3;
   font-size: 1.5rem;
   font-weight: 300;
   border:2px solid var(--blue);
   outline:none;
   border-radius: 2.5rem;
+}
+
+main .email_input.red:focus,
+main .email_input.red{
+  border:2px solid var(--light-red);
 }
 
 .btn{
@@ -102,9 +106,10 @@ main .email_input:active{
   outline: none;
   border:none;
   border-radius: 5rem;
-  opacity: .6;
+  /* opacity: .6; */
   cursor:pointer;
   transition: background .3s;
+  box-shadow:0 10px  15px var(--pale-blue);
 }
 
 
@@ -114,14 +119,15 @@ main .email_input:active{
 
 main img{
   max-width: 100%;
-  padding:8.7rem 3.6rem 0 ;
+  padding:4.3rem 3.6rem 0 ;
   opacity: .6;
 }
 
 .social-icons{
   display:flex;
   column-gap:1.6rem;
-  margin-top: 15rem;
+  margin-top: 15.2rem;
+  
 }
 
 .icon{
@@ -130,6 +136,13 @@ main img{
   font-size: 2rem;
   border:2px solid var(--pale-blue);
   padding:.8rem;
+  cursor: pointer;
+  transition: background .3s, color .3s;
+}
+
+.icon:hover{
+color:#fff;
+background-color: var(--blue);
 }
 
 .copy{
@@ -137,3 +150,13 @@ main img{
   color: var(--Gray);
   margin-top: 3.5rem;
 }
+
+.alert{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color:var(--light-red);
+  font-style: italic;
+  margin-bottom: 1.4rem;
+  visibility: hidden;
+}
+

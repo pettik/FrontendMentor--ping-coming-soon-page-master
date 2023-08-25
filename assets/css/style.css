@@ -22,7 +22,7 @@ footer {
 
 .template-mobile {
   /* border: 2px solid blue; */
-  background: url('../../design/mobile-error-state.jpg');
+  /* background: url('../../design/mobile-error-state.jpg'); */
   position: absolute;
   width: 750px;
   height: 1624px;

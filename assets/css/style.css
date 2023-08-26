@@ -5,24 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root{
+:root {
   --blue: hsl(223, 87%, 63%);
   --pale-blue: hsl(223, 100%, 88%);
   --light-red: hsl(354, 100%, 66%);
   --Gray: hsl(0, 0%, 59%);
---very-dark-blue: hsl(209, 33%, 12%);
+  --very-dark-blue: hsl(209, 33%, 12%);
 }
-
-
 
 footer {
   display: none;
 }
 
-
 .template-mobile {
   /* border: 2px solid blue; */
-  /* background: url('../../design/mobile-error-state.jpg'); */
+  /* background: url('../../design/mobile-design.jpg');
+  background: url('../../design/mobile-error-state.jpg'); */
   position: absolute;
   width: 750px;
   height: 1624px;
@@ -34,7 +32,7 @@ footer {
   opacity: 1;
 }
 
-body{
+body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -43,120 +41,123 @@ main {
   width: 750px;
   margin: 0 auto;
 
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  /* opacity: 0.4; */
 }
 
-main h1{
-  margin-top: 10rem;;
+main h1 {
+  margin-top: 10rem;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
 
-main h1 span{
-color: var(--blue);;
+main h1 span {
+  color: var(--blue);
 }
 
-main h3{
+main h3 {
   font-weight: 300;
   margin-top: 4.2rem;
   font-size: 2.8rem;
 }
 
-main h3 span{
+main h3 span {
   font-weight: 700;
 }
 
-
-main p.description{
+main p.description {
   margin-top: 2.3rem;
   font-size: 1.5rem;
 }
 
 main .email_input,
 main .email_input:focus,
-main .email_input:active{
+main .email_input:active {
   margin-top: 4rem;
-  margin-left: .1rem;
+  margin-left: 0.1rem;
   min-width: 75%;
-  padding:1.5rem 4rem;
+  padding: 1.5rem 4rem;
   font-size: 1.5rem;
   font-weight: 300;
-  border:2px solid var(--blue);
-  outline:none;
+  border: 3px solid var(--blue);
+  outline: none;
   border-radius: 2.5rem;
 }
 
-main .email_input.red:focus,
-main .email_input.red{
-  border:2px solid var(--light-red);
+main.red .email_input:focus,
+main.red .email_input {
+  border: 3px solid var(--light-red);
 }
 
-.btn{
+.btn {
   min-width: 75%;
-  margin-left: .1rem;
-  margin-top:1.3rem;
+  margin-left: 0.1rem;
+  margin-top: 1.3rem;
   background-color: var(--blue);
   color: #fff;
   font-size: 1.6rem;
   font-weight: 500;
-  padding:1.7rem 0 ;
+  padding: 1.7rem 0;
   outline: none;
-  border:none;
+  border: none;
   border-radius: 5rem;
   /* opacity: .6; */
-  cursor:pointer;
-  transition: background .3s;
-  box-shadow:0 10px  15px var(--pale-blue);
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 10px 15px var(--pale-blue);
 }
 
-
-.btn:hover{
+.btn:hover {
   background: var(--pale-blue);
 }
 
-main img{
+main img {
   max-width: 100%;
-  padding:4.3rem 3.6rem 0 ;
-  opacity: .6;
+  margin-top: 8.4rem;
+  padding-left: 3.6rem;
+  padding-right: 3.6rem;
+  opacity: 0.6;
+}
+main.red img {
+  margin-top: 4.2rem;
 }
 
-.social-icons{
-  display:flex;
-  column-gap:1.6rem;
+.social-icons {
+  display: flex;
+  column-gap: 1.6rem;
   margin-top: 15.2rem;
-  
 }
 
-.icon{
-  color:var(--blue);
+.icon {
+  color: var(--blue);
   border-radius: 50%;
   font-size: 2rem;
-  border:2px solid var(--pale-blue);
-  padding:.8rem;
+  border: 2px solid var(--pale-blue);
+  padding: 0.8rem;
   cursor: pointer;
-  transition: background .3s, color .3s;
+  transition: background 0.3s, color 0.3s;
 }
 
-.icon:hover{
-color:#fff;
-background-color: var(--blue);
+.icon:hover {
+  color: #fff;
+  background-color: var(--blue);
 }
 
-.copy{
+.copy {
   font-size: 1.25rem;
   color: var(--Gray);
   margin-top: 3.5rem;
 }
 
-.alert{
-  margin-top: 1rem;
+.alert {
+  margin-top: 0.95rem;
   font-size: 1.3rem;
-  color:var(--light-red);
+  color: var(--light-red);
   font-style: italic;
   margin-bottom: 1.4rem;
-  visibility: hidden;
+  display: none;
 }
-

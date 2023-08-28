@@ -195,4 +195,14 @@ main.red img {
     margin-top: 5rem;
     font-size: 2rem;
   }
+
+  main h3 {
+    margin-top: 2.75rem;
+    font-size: 3rem;
+  }
+
+  main p.description {
+    margin-top: 0.85rem;
+    font-size: 1.23rem;
+  }
 }

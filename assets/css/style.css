@@ -19,8 +19,8 @@ footer {
 
 .template-mobile {
   /* border: 2px solid blue; */
-  /* background: url('../../design/mobile-design.jpg');
-  background: url('../../design/mobile-error-state.jpg'); */
+  /* background: url('../../design/mobile-design.jpg');*/
+  background: url('../../design/mobile-error-state.jpg');
   position: absolute;
   width: 750px;
   height: 1624px;
@@ -74,12 +74,16 @@ main p.description {
   font-size: 1.5rem;
 }
 
+.inputbox {
+  width: 75%;
+}
+
 main .email_input,
 main .email_input:focus,
 main .email_input:active {
   margin-top: 4rem;
   margin-left: 0.1rem;
-  min-width: 75%;
+  width: 100%;
   padding: 1.5rem 4rem;
   font-size: 1.5rem;
   font-weight: 300;
@@ -94,7 +98,7 @@ main.red .email_input {
 }
 
 .btn {
-  min-width: 75%;
+  width: 100%;
   margin-left: 0.1rem;
   margin-top: 1.3rem;
   background-color: var(--blue);

@@ -40,6 +40,7 @@ main {
   height: 1624px;
   width: 750px;
   margin: 0 auto;
+  margin-left: -0.5rem;
 
   display: flex;
   flex-direction: column;

@@ -210,4 +210,15 @@ main.red img {
     margin-top: 0.85rem;
     font-size: 1.23rem;
   }
+
+  .inputbox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .inputbox input,
+  .inputbox .btn {
+    margin-top: 0;
+  }
 }

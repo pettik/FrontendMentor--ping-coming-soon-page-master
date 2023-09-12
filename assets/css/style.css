@@ -229,7 +229,7 @@ main.red img {
   main .email_input:focus,
   main .email_input:active {
     margin-top: 0;
-    flex: 1.45;
+    flex: 2.3;
     padding: 1rem;
     border: 2px solid var(--blue);
     font-size: 1.1rem;
@@ -238,5 +238,12 @@ main.red img {
     flex: 1;
     font-size: 1.1rem;
     padding: 1rem;
+  }
+
+  main img {
+    max-width: 47rem;
+    margin-top: 2.8rem;
+
+    opacity: 0.6;
   }
 }

@@ -246,4 +246,21 @@ main.red img {
 
     opacity: 0.6;
   }
+
+  .social-icons {
+    display: flex;
+    column-gap: 0.8rem;
+    margin-top: 4.5rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+    border: 1.5px solid var(--pale-blue);
+    padding: 0.4rem;
+  }
+
+  .copy {
+    font-size: 0.75rem;
+    margin-top: 1.75rem;
+  }
 }

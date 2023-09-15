@@ -248,6 +248,10 @@ main.red img {
     opacity: 0.6;
   }
 
+  main.red img {
+    margin-top: 2.8rem;
+  }
+
   .social-icons {
     display: flex;
     column-gap: 0.8rem;
@@ -265,7 +269,7 @@ main.red img {
     margin-top: 1.65rem;
   }
 
-  .alert {
+  main.red .alert {
     display: block;
     position: absolute;
     top: 3rem;
@@ -273,11 +277,11 @@ main.red img {
     font-size: 0.78rem;
   }
 
-  .red .social-icons {
-    margin-top: 3.2rem;
+  main.red .social-icons {
+    margin-top: 4.6rem;
   }
 
-  .red .copy {
+  main.red .copy {
     margin-top: 1.65rem;
   }
 }

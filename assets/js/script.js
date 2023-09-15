@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
       alertParagraph.style.display = 'block';
     } else {
       mainContent.classList.remove('red');
-      aalertParagraph.style.display = 'none';
+      alertParagraph.style.display = 'none';
     }
   });
 

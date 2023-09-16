@@ -20,7 +20,7 @@ footer {
 .template-mobile {
   /* border: 2px solid blue; */
   /* background: url('../../design/mobile-design.jpg');*/
-  background: url('../../design/mobile-error-state.jpg');
+  /* background: url('../../design/mobile-error-state.jpg'); */
   position: absolute;
   width: 750px;
   height: 1624px;
@@ -193,7 +193,7 @@ main.red img {
     align-items: center;
     text-align: center;
 
-    opacity: 0.75;
+    /* opacity: 0.75; */
   }
 
   main h1 {
@@ -236,6 +236,11 @@ main.red img {
     border: 2px solid var(--blue);
     font-size: 1.1rem;
   }
+
+  main.red .email_input:focus,
+  main.red .email_input {
+    border: 2px solid var(--light-red);
+  }
   .inputbox .btn {
     flex: 1;
     font-size: 1.1rem;
@@ -267,6 +272,7 @@ main.red img {
   .copy {
     font-size: 0.75rem;
     margin-top: 1.65rem;
+    margin-bottom: 2rem;
   }
 
   main.red .alert {

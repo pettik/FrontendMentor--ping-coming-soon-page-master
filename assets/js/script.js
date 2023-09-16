@@ -16,9 +16,4 @@ document.addEventListener('DOMContentLoaded', function () {
       alertParagraph.style.display = 'none';
     }
   });
-
-  // emailInput.addEventListener('input', function () {
-  //   mainContent.classList.remove('red');
-  //   alertParagraph.style.display = 'block';
-  // });
 });

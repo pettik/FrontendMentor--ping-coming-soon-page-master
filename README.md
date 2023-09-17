@@ -30,7 +30,7 @@ My users should have been able to:
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-## ➡️[LIVE PREVIEW] https://pettik-newsletter-sign-up-form-with.netlify.app ⬅️
+## ➡️[LIVE PREVIEW] https://pettik-ping-coming-soon-page.netlify.app/ ⬅️
 
 ## Timemanagement
 - start: 17TH AUGUST 2023 

@@ -33,5 +33,5 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 ## ➡️[LIVE PREVIEW] https://pettik-ping-coming-soon-page.netlify.app/ ⬅️
 
 ## Timemanagement
-- start: 17TH AUGUST 2023 
-- finish: 16th of August 2023
+- start: 17th September 2023 
+- finish: 16th August 2023
